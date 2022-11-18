@@ -1,5 +1,13 @@
 {
 	"usr-local-linker": {
 		"bin": ["package/bin/hello"]
-	}
+	},
+     "data-share": {
+        "shares": [{
+            "name": "hello",
+            "permission": {
+                "rw": ["hello"]
+            }
+        }]
+    }
 }
